@@ -504,6 +504,9 @@ img {
     font-size: 16px;
 }
 /* Form */
+.container-form {
+    margin-left: 24px;
+}
 .subscribe-form {
     margin-bottom: 16px;
     font-weight: 500;
