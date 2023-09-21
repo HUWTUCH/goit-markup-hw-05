@@ -615,7 +615,7 @@ img {
 }
 .icon-modal_button:hover,
 .icon-modal_button:focus {
-    fill: #ffffff
+    fill: #ffffff;
 }
 /* Paragraph */
 .text-modal {
@@ -628,10 +628,10 @@ img {
     margin-bottom: 16px;
 }
 /* Name */
-.name-block {
+.form-block {
     margin-bottom: 8px;
 }
-.form-label {
+.name-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
