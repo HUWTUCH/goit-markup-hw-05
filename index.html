@@ -433,7 +433,7 @@
             <p class="subscribe-form">Subscribe</p>
             <form class="form">
                 <label class="label-form">
-                    <input class="input-form" type="email" name="user-email" placeholder="E-mail">
+                    <input class="input-form" type="email" name="email" placeholder="E-mail">
                 </label>
                 <button type="submit" class="subscribe-button">Subscribe
                     <svg class="icon-sub" width="24" height="24">
@@ -444,5 +444,61 @@
         </div>
     </div>
 </footer>
+<!-- BACKDROP WITH MODAL WINDOW -->
+<div class="backdrop_container">
+    <div class="modal-window">
+        <button type="button" class="modal-button">
+            <svg class="icon-modal_button" width="8" height="8">
+                <use href="./images/icons.svg#icon-crest"></use>
+            </svg>
+        </button>
+        <p class="text-modal">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+            <div class="form-block">
+                <label class="name-label" for="user-name">
+                    Name
+                    <div class="container-input">
+                        <input class="name-input" type="text" name="user-name" id="user-name">
+                        <svg class="svg-name" width="18" height="24">
+                            <use href="./images/icons.svg#icon-name"></use>
+                        </svg>
+                    </div>
+                </label>
+            </div>
+            <div class="form-block">
+                <label class="name-label" for="user-phone">
+                    Phone
+                    <div class="container-input">
+                        <input class="name-input" type="text" name="user-name" id="user-phone">
+                        <svg class="svg-name" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </label>
+            </div>
+            <div class="form-block">
+                <label class="name-label" for="user-email">
+                    Email
+                    <div class="container-input">
+                        <input class="name-input" type="text" name="user-name" id="user-email">
+                        <svg class="svg-name" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </label>
+            </div>
+            <div class="comment">
+                <label for="user-comment" class="comment-label">
+                    Comment
+                    <textarea class="textarea-input" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
+                </label>
+            </div>
+            <div class="checkbox-form">
+                <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="visually-hidden">
+                <label for="user-privacy" class="checkbox-label">I accept the terms and conditions of the <span class="policy-text"></span> </label>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
