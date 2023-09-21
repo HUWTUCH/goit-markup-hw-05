@@ -714,7 +714,7 @@ img {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
 }
-.checkbox-icon {
+.icon-checkbox {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
