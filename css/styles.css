@@ -727,7 +727,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.visual-hidden:checked + .checkbox-icon{
+.visual-hidden:checked + .checkbox-label > .icon-checkbox {
     background-color: var(--background-color);
     border: none;
     fill: #F4F4FD;;
