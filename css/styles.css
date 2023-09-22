@@ -716,8 +716,7 @@ img {
     white-space: nowrap;
 }
 
-.checkbox-label > .icon-checkbox {
-    background-color: var(--background-color);
+.icon-checkbox {
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
