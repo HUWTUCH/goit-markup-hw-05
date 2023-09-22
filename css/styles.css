@@ -2,7 +2,8 @@
     --font-color: #2E2F42;
     --text-color: #8e8f99;
     --background-color: #404bbf;
-    --link-color: #4d5ae5;;
+    --link-color: #4d5ae5;
+    --icon-color: #F4F4FD;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -727,10 +728,11 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.visual-hidden:checked + .checkbox-label > .icon-checkbox {
+
+.visual-hidden:checked+.checkbox-label>.icon-checkbox {
     background-color: var(--background-color);
     border: none;
-    fill: #F4F4FD;;
+    fill: var(--icon-color);
 
 }
 .checkbox-link {
