@@ -729,6 +729,12 @@ img {
     fill: transparent;
 }
 
+.checkbox-label > .icon-checkbox {
+    background-color: var(--background-color);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    fill: var(--icon-color);
+}
+
 .visual-hidden:checked+.checkbox-label>.icon-checkbox {
     background-color: var(--background-color);
     border: none;
