@@ -512,7 +512,7 @@ img {
 }
 /* Form */
 .container-form {
-    margin-left: 24px;
+    margin-left: auto;
 }
 .subscribe-form {
     margin-bottom: 16px;
@@ -561,7 +561,7 @@ img {
 }
 .icon-sub {
     margin-left: 16px;
-
+    fill: var(--icon-color);
 }
 /* BACKDROP */
 .backdrop_container {
@@ -755,4 +755,5 @@ img {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 25%;
 }
